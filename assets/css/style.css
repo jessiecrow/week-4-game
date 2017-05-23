@@ -1,0 +1,75 @@
+/*.container {
+    background-image: url("https://wallpaperstock.net/wallpapers/thumbs1/37098wide.jpg")
+}*/
+#body-text {
+    font-family: cursive;
+}
+h1 {
+    color: white;
+}
+#header {
+    margin-top: 0;
+    padding-top: 10px;
+    border-bottom: 3px solid black;
+    border-top: 3px solid black;
+    border-left: 3px solid black;
+    border-right: 3px solid black;
+    background-image: url("../images/banner.jpg");
+}
+#footerbar {
+    padding: 30px;
+    border-top: 3px solid black;
+    margin-top: -50%;
+    clear: both;
+    position: relative;
+}
+.targetSection {
+    border: 1px solid black;
+    margin: 15px;
+    float: left;
+    position: relative;
+    width: 30%;
+}
+.winslosses {
+    border: 1px solid black;
+    margin: 15px;
+    float: left;
+    position: relative;
+    width: 30%;
+}
+.userNumber {
+    border: 1px solid black;
+    margin: 15px;
+    float: left;
+    position: relative;
+    width: 30%;
+}
+.titlebar {
+    border-bottom: 1px solid black;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#wins {
+    margin-left: 60px;
+    float: left;
+}
+#loss {
+    margin-left: 60px;
+    float: left;
+}
+#windigit {
+    margin-left: 90px;
+    clear: both;
+    float: left;
+}
+#lossdigit {
+    margin-left: 90px;
+    float: left;
+}
+.number {
+    font-size: 40px;
+    font-weight: bold;
+}
+.scoreboard {
+    font-family: cursive;
+}
