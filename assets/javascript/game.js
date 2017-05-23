@@ -30,9 +30,9 @@ $(document).ready(function() {
         userTotal = 0;
         $("#userClickedTotal").html(userTotal);
     }
-    function count(increment) {
+    function count(event) {
         console.log(userTotal);
-        userTotal += increment;
+        userTotal += event;
         $("#userClickedTotal").empty();
         $("#userClickedTotal").append(userTotal);
         if (userTotal === randomTarget) {
