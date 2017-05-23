@@ -1,9 +1,9 @@
 $(document).ready(function() {
     var randomTarget = Math.floor(Math.random() * 120) + 19;
-    var crystalOne = Math.floor(Math.random() * 15) + 1;
-    var crystalTwo = Math.floor(Math.random() * 15) + 1;
-    var crystalThree = Math.floor(Math.random() * 15) + 1;
-    var crystalFour = Math.floor(Math.random() * 15) + 1;
+    var crystalOne = Math.floor(Math.random() * 12) + 1;
+    var crystalTwo = Math.floor(Math.random() * 12) + 1;
+    var crystalThree = Math.floor(Math.random() * 12) + 1;
+    var crystalFour = Math.floor(Math.random() * 12) + 1;
     var userTotal = 0;
     var wins = 0;
     var loss = 0;
